@@ -1,14 +1,10 @@
 package tddmicroexercises.telemetrysystem;
-
 public class TelemetryDiagnosticControls implements TelemetryDiagnosticService
 {
     private final String DiagnosticChannelConnectionString = "*111#";
-
     private final TelemetryClientService telemetryClient;
-
     private final TelemetryConnectionService telemetryClientConnection;
     private String diagnosticInfo = "";
-
     public TelemetryDiagnosticControls(TelemetryClientService telemetryClient, TelemetryConnectionService telemetryClientConnection) {
 
         this.telemetryClient = telemetryClient;

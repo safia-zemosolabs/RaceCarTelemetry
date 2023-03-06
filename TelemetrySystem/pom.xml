@@ -4,20 +4,23 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>com.github.emilybache</groupId>
-		<artifactId>racing-car-katas</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
-
+	<groupId>tddmicroexercises.telemetrysystem</groupId>
 	<artifactId>TelemetrySystem</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
-	<dependencies>
+    <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.9.1</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<properties>
+		<maven.compiler.source>18</maven.compiler.source>
+		<maven.compiler.target>18</maven.compiler.target>
+	</properties>
 
 </project>

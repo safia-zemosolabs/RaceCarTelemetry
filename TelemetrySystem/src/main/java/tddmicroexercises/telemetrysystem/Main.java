@@ -1,5 +1,4 @@
 package tddmicroexercises.telemetrysystem;
-
 public class Main {
     public static void main(String args[]){
         TelemetryClientService telemetryClient = new TelemetryClient();
